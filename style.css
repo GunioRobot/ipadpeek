@@ -95,8 +95,15 @@ a {
 }
 
 #ipad.portrait iframe {
-  width: 768px;
-  height: 946px;
+  left: 43px;      /* looks better with + 1 */
+  width: 1023px;   /* 768 * 4 / 3 - 1*/
+  height: 1261px;  /* 946 * 4 / 3 */
+  -moz-transform: scale(0.75);
+  -moz-transform-origin: 0 0;
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin: 0 0;
+  -o-transform: scale(0.75);
+  -o-transform-origin: 0 0;
 }
 
 #donate {
