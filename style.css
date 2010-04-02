@@ -1,5 +1,6 @@
 body {
   background: #000;
+  color: #fff;
   font-family: 'Droid Sans', 'Liberation Sans', FreeSans, 'Helvetica Neue LT Std', 'Helvetica LT Std', Helvetica, Arial, Tahoma, 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
 
@@ -107,8 +108,6 @@ a {
 }
 
 #donate {
-  margin-top: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 96px;
+  margin: 16px;
+  text-align: center;
 }
