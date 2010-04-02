@@ -1,0 +1,102 @@
+body {
+  background: #000;
+}
+
+#ipad {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+#ipad.landscape {
+  background: url('landscape.png');
+  width: 1108px;
+  height: 852px;
+}
+
+#ipad.portrait {
+  background: url('portrait.png');
+  width: 852px;
+  height: 1108px;
+}
+
+#ipad #rotate {
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+#ipad.landscape #rotate {
+  width: 1108px;
+}
+
+#ipad.portrait #rotate {
+  width: 852px;
+}
+
+#ipad #kbd {
+  position: absolute;
+  left: 42px;
+  top: 116px;
+  display: none;
+  z-index: 10;
+}
+
+#ipad.landscape #kbd {
+  background: url('landscape_kbd.png');
+  width: 1024px;
+  height: 694px;
+}
+
+#ipad.portrait #kbd {
+  background: url('portrait_kbd.png');
+  width: 768px;
+  height: 950px;
+}
+
+#ipad #url {
+  position: absolute;
+  left: 282px;
+  top: 87px;
+  height: 21px;
+  background: #fff;
+  border: none;
+  font-family: 'Droid Sans', 'Liberation Sans', FreeSans, 'Helvetica Neue LT Std', 'Helvetica LT Std', Helvetica, Arial, Tahoma, 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+#ipad.landscape #url {
+  width: 460px;
+}
+
+#ipad.portrait #url {
+  width: 300px;
+}
+
+#ipad iframe {
+  border: none;
+  background: #fff;
+  position: absolute;
+  left: 42px;
+  top: 120px;
+}
+
+#ipad.landscape iframe {
+  width: 1024px;
+  height: 690px;
+}
+
+#ipad.portrait iframe {
+  width: 768px;
+  height: 946px;
+}
+
+#donate {
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96px;
+}
