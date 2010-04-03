@@ -44,6 +44,22 @@ a {
   width: 852px;
 }
 
+#ipad #reload {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  cursor: pointer;
+  top: 89px;
+}
+
+#ipad.landscape #reload {
+  left: 745px;
+}
+
+#ipad.portrait #reload {
+  left: 582px;
+}
+
 #ipad #kbd {
   position: absolute;
   left: 42px;
@@ -96,8 +112,7 @@ a {
 }
 
 #ipad.portrait iframe {
-  left: 43px;      /* looks better with + 1 */
-  width: 1023px;   /* 768 * 4 / 3 - 1*/
+  width: 1024px;   /* 768 * 4 / 3 - 1*/
   height: 1261px;  /* 946 * 4 / 3 */
   -moz-transform: scale(0.75);
   -moz-transform-origin: 0 0;
@@ -107,7 +122,11 @@ a {
   -o-transform-origin: 0 0;
 }
 
-#donate {
+.info {
   margin: 16px;
   text-align: center;
+}
+
+#about {
+  display: none;
 }

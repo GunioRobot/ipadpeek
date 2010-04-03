@@ -12,19 +12,32 @@
 
 <div id="ipad" class="landscape">
   <div id="rotate" title="Click to rotate ..."></div>
+  <div id="reload"></div>
   <div id="kbd"></div>
-  <input id="url" />
+  <input id="url"></input>
   <iframe></iframe>
 </div>
 
-<div id="donate">
-  <p><a href="http://gitorious.org/stick/ipadpeek">source code</a> | <a href="mailto:stick@gk2.sk">contact</a></p>
+<div class="info">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
   <input type="hidden" name="cmd" value="_s-xclick">
   <input type="hidden" name="hosted_button_id" value="ATZ532FGVZJDC">
   <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
   <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+</div>
+
+<div class="info" id="about">
+<p>Click on the top iPad border to rotate.</p>
+<p>Pages in portrait mode are scaled to 75% using CSS3 transformations. Works best in Firefox 3.5+, Chromium 5+ and Opera 10.5+</p>
+<p>You can preload a page or set portrait mode by passing using URL parameters, like this: <a href="http://ipadpeek.com/?url=google.com&amp;portrait">http://ipadpeek.com/?url=google.com&amp;portrait</a></p>
+<p>Reload button on the iPad address bar works.</p>
+</div>
+
+<div class="info">
+  <a id="show_about" href="#">about</a> |
+  <a href="http://gitorious.org/stick/ipadpeek" target="_blank">source code</a> |
+  <a href="mailto:stick@gk2.sk">contact</a></p>
 </div>
 
 </body>
