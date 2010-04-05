@@ -98,7 +98,7 @@ a {
   width: 300px;
 }
 
-#ipad iframe {
+#ipad #frame {
   border: none;
   background: #fff;
   position: absolute;
@@ -106,12 +106,12 @@ a {
   top: 120px;
 }
 
-#ipad.landscape iframe {
+#ipad.landscape #frame {
   width: 1024px;
   height: 690px;
 }
 
-#ipad.portrait iframe {
+#ipad.portrait #frame {
   width: 1024px;   /* 768 * 4 / 3 - 1*/
   height: 1261px;  /* 946 * 4 / 3 */
   -moz-transform: scale(0.75);

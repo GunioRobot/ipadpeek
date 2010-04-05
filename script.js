@@ -4,7 +4,7 @@ var setFrameUrl = function(url) {
     url = 'http://' + url;
   }
   $('#url').val(url);
-  $('iframe').attr('src',url);
+  $('#frame').attr('src',url);
 };
 
 var rotate = function() {
@@ -19,7 +19,7 @@ if ($.url.param('portrait')) rotate();
 $('#rotate').click(rotate);
 
 $('#reload').click(function(){
-  $('iframe').attr('src',$('iframe').attr('src'));
+  $('#frame').attr('src',$('#frame').attr('src'));
 });
 
 $('#url').focus(function(){
