@@ -36,6 +36,20 @@ $('#url').keyup(function(evt){
   setFrameUrl($(this).val());
 });
 
+$('#google').focus(function(){
+  $('#kbd').show();
+});
+
+$('#google').blur(function(){
+  $('#kbd').hide();
+});
+
+$('#google').keyup(function(evt){
+  if (evt.keyCode != 13) return;
+  $('#google').blur();
+  setFrameUrl("http://www.google.com/search?q="+escape($(this).val()));
+});
+
 $('#show_about').click(function(){
   $('#about').slideToggle();
   return false;

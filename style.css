@@ -17,13 +17,13 @@ a {
 }
 
 #ipad.landscape {
-  background: url('landscape.png');
+  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/landscape.png');
   width: 1108px;
   height: 852px;
 }
 
 #ipad.portrait {
-  background: url('portrait.png');
+  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/portrait.png');
   width: 852px;
   height: 1108px;
 }
@@ -69,13 +69,13 @@ a {
 }
 
 #ipad.landscape #kbd {
-  background: url('landscape_kbd.png');
+  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/landscape_kbd.png');
   width: 1024px;
   height: 694px;
 }
 
 #ipad.portrait #kbd {
-  background: url('portrait_kbd.png');
+  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/portrait_kbd.png');
   width: 768px;
   height: 950px;
 }
@@ -96,6 +96,25 @@ a {
 
 #ipad.portrait #url {
   width: 300px;
+}
+
+#ipad #google {
+  position: absolute;
+  top: 87px;
+  height: 21px;
+  background: #fff;
+  border: none;
+  font-family: 'Droid Sans', 'Liberation Sans', FreeSans, 'Helvetica Neue LT Std', 'Helvetica LT Std', Helvetica, Arial, Tahoma, 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+#ipad.landscape #google {
+  left: 790px;
+  width: 250px;
+}
+
+#ipad.portrait #google {
+  left: 620px;
+  width: 160px;
 }
 
 #ipad #frame {
