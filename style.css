@@ -17,13 +17,13 @@ a {
 }
 
 #ipad.landscape {
-  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/landscape.png');
+  background: url('orig/landscape.png');
   width: 1108px;
   height: 852px;
 }
 
 #ipad.portrait {
-  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/portrait.png');
+  background: url('orig/portrait.png');
   width: 852px;
   height: 1108px;
 }
@@ -69,13 +69,13 @@ a {
 }
 
 #ipad.landscape #kbd {
-  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/landscape_kbd.png');
+  background: url('orig/landscape_kbd.png');
   width: 1024px;
   height: 694px;
 }
 
 #ipad.portrait #kbd {
-  background: url('http://gitorious.org/stick/ipadpeek/blobs/raw/master/orig/portrait_kbd.png');
+  background: url('orig/portrait_kbd.png');
   width: 768px;
   height: 950px;
 }
